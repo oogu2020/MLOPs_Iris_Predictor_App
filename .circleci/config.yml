@@ -44,7 +44,7 @@ jobs:
           name: Configure GKE
           command: |
             gcloud container clusters get-credentials $GKE_CLUSTER \
-              --zone $GOOGLE_COMPUTE_ZONE \
+              --region $GOOGLE_COMPUTE_REGION \
               --project $GOOGLE_PROJECT_ID
 
       - run:
