@@ -2,3 +2,6 @@ venv/
 MLOPs_Project_6.egg-info/
 logs/
 gcp-key.json
+*.json
+*.key
+
